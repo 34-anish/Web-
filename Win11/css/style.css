@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("../media/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  /* background-size: cover; */
+}
+
+/* FOR TASKBAR */
+#taskbar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(16, 31, 94, 1);
+}
+
+.taskbar_img {
+  position: relative;
+  left: 29.1%;
+}
+.win {
+  position: absolute;
+  bottom: 8px;
+  left: 31.4%;
+  cursor: pointer;
+  z-index: 1;
+}
+.right {
+  position: absolute;
+  bottom: 0.2%;
+  right: 0;
+
+  z-index: 1;
+}
+#start_ {
+  position: relative;
+  height: 10px;
+  bottom: -741.5px;
+  transition: all 0.3s ease-in;
+}
+.start {
+  height: 600px;
+  position: relative;
+  left: 27.4%;
+  border-radius: 8px;
+  bottom: 10%;
+}
+.icons {
+  display: inline;
+}
+.icon {
+  width: 7%;
+}
+.chrome {
+  position: relative;
+  top: 6px;
+  left: -5px;
+}
+p {
+  color: white;
+  width: 12%;
+  line-height: 1.2;
+  font-family: "Segoe UI";
+  font-weight: 100;
+  text-align: left;
+}
+a {
+  text-decoration: none;
+}
+.icon:hover {
+  background-color: grey;
+}
